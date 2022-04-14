@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "My custom container script"
+echo "My custom container script. $1"

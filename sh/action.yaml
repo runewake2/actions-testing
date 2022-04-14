@@ -7,5 +7,5 @@ inputs:
 runs:
   using: "composite"
   steps:
-    - run: echo "Hello Composite Action"
+    - run: echo "Hello Composite Action. Doc is ${{ inputs.youtube-api-key }}"
       shell: bash
