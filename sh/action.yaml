@@ -7,5 +7,5 @@ inputs:
 runs:
   using: "composite"
   steps:
-    - run: ${{ github.action_path }}/script.sh
+    - run: echo "Hello Composite Action"
       shell: bash
