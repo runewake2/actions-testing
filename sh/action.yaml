@@ -1,0 +1,11 @@
+name: 'Custom Action Demo'
+description: 'Quick demo of custom github action'
+inputs:
+  doc:
+    description: "Document to Reference"
+    required: true
+runs:
+  using: "composite"
+  steps:
+    - run: ${{ github.action_path }}/sh/script.sh
+      shell: bash

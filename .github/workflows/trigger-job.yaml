@@ -16,3 +16,7 @@ jobs:
       uses: ./container
       with:
         doc: "README.md"
+    - name: Custom Composite Action
+      uses: ./sh
+      with:
+        doc: "README.md"
