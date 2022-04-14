@@ -7,5 +7,5 @@ inputs:
 runs:
   using: "composite"
   steps:
-    - run: ${{ github.action_path }}/sh/script.sh
+    - run: ${{ github.action_path }}/script.sh
       shell: bash
