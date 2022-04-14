@@ -5,5 +5,5 @@ inputs:
     description: "Document to Reference"
     required: true
 runs:
-  using: 'node12'
+  using: 'node16'
   main: 'main.js'
